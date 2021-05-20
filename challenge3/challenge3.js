@@ -4,7 +4,7 @@ const Queue = require('./queue.js');
 const Stack = require('./stack.js');
 
 function reverseKElementsOfQueue(queue, k) {
-    // craete an empty stack
+    // create an empty stack
     let stack = new Stack();
     if(queue.isEmpty() !== true) {
 
