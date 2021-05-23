@@ -40,5 +40,6 @@ function infixToPostfix(infixStr) {
     }
     return postfix.join("")
 }
+
 infixToPostfix("x-y/z-r*d");
 // infixToPostfix("x+y-z");
