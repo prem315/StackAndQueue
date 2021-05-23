@@ -32,4 +32,4 @@ module.exports = class Queue {
             return this.items.shift()
         }
     }
-}
+} 
